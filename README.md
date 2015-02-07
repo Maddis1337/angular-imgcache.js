@@ -107,7 +107,7 @@ Angular-imgcache.js comes with directive, which first looks into cache for an im
 
 We can set src of an image with `ng-src` attribute.
 
-** Note: This is a difference from [jBenes' original angular-imagecache.js](https://github.com/jBenes/angular-imgcache.js), because it allows regular images to load even when the FileAPI is blocked by the client **
+**Note: This is a difference from [jBenes' original angular-imagecache.js](https://github.com/jBenes/angular-imgcache.js), because it allows regular images to load even when the FileAPI is blocked by the client**
 
 ```html
 <img img-cache ng-src="{{imgUrl}}" />
