@@ -41,7 +41,7 @@ angular.module('ImgCache', [])
         restrict: 'A',
         scope: {
             icBg: '@',
-            icSrc: '@'
+            ngSrc: '@'
         },
         link: function(scope, el, attrs) {
 
@@ -75,7 +75,7 @@ angular.module('ImgCache', [])
                 });
             }
 
-            attrs.$observe('icSrc', function(src) {
+            attrs.$observe('ngSrc', function(src) {
 
                 loadImg('src', el, src);
 
