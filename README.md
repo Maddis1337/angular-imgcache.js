@@ -8,7 +8,7 @@ Simple [imgcache.js](https://github.com/chrisben/imgcache.js) wrapper for Angula
 Install via bower
 
 ```sh
-bower install --save angular-imgcache.js
+bower install --save https://github.com/Maddis1337/angular-imgcache.js
 ```
 
 Link library and dependencies
